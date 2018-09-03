@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="samples.mohamedgamal.smartdialog.MainActivity"
+    android:gravity="center_vertical">
+
+    <Button
+        android:id="@+id/defaultDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Default Dialog"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/animatedDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animated Dialog"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/customDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/customWithTitleDialogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog With Title"/>
+</LinearLayout>
