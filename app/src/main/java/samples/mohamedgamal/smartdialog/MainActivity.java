@@ -73,10 +73,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .setMessageTextSize(20)
                 .setMessageTextColorResId(getResources().getColor(libs.mohamedgamal.smartdialog.R.color.black))
                 .setDismissBtnText("cancel")
-                .setDismissBtnTextColorResId(getResources().getColor(libs.mohamedgamal.smartdialog.R.color.white))
+                .setDismissBtnTextColorResId(getResources().getColor(R.color.light_gray))
                 .setDismissBtnBackgroundColorResId(getResources().getColor(R.color.green))
                 .setActionBtnText("Ok")
-                .setActionBtnTextColorResId(getResources().getColor(libs.mohamedgamal.smartdialog.R.color.white))
+                .setActionBtnTextColorResId(getResources().getColor(R.color.light_gray))
                 .setActionBtnBackgroundColorResId(getResources().getColor(R.color.green))
                 .setActionBtnClickAction(new Callable() {
                     @Override
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     }
                 })
                 .setDialogImageDrawable(getResources().getDrawable(R.drawable.android))
-                .setDialogBackgroundColorResId(getResources().getColor(R.color.dark_off_white))
+                .setDialogBackgroundColorResId(getResources().getColor(R.color.light_gray))
                 .top()
                 .applyLeftLeftAnimation()
                 .showDialog();
