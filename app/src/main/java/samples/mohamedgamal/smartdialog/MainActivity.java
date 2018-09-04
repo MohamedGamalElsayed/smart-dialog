@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         new SmartDialog(this)
                 .setMessage("Press Ok to show toast")
                 .setMessageTextSize(20)
-                .setMessageTextColorResId(getResources().getColor(libs.mohamedgamal.smartdialog.R.color.white))
+                .setMessageTextColorResId(getResources().getColor(libs.mohamedgamal.smartdialog.R.color.black))
                 .setDismissBtnText("cancel")
                 .setDismissBtnTextColorResId(getResources().getColor(libs.mohamedgamal.smartdialog.R.color.white))
                 .setDismissBtnBackgroundColorResId(getResources().getColor(R.color.green))
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     }
                 })
                 .setDialogImageDrawable(getResources().getDrawable(R.drawable.android))
-                .setDialogBackgroundColorResId(R.color.dark_off_white)
+                .setDialogBackgroundColorResId(getResources().getColor(R.color.dark_off_white))
                 .top()
                 .applyLeftLeftAnimation()
                 .showDialog();
@@ -106,8 +106,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         return null;
                     }
                 })
-                .setActionBtnTextColorResId(R.color.black)
-                .setDismissBtnTextColorResId(R.color.black)
+                .setActionBtnTextColorResId(getResources().getColor(R.color.black))
+                .setDismissBtnTextColorResId(getResources().getColor(R.color.black))
                 .setDialogImageDrawable(getResources().getDrawable(R.drawable.android))
                 .center()
                 .applyUpUpAnimation()
