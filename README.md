@@ -111,3 +111,6 @@ setDismissBtnBackgroundColorResId(getResources().getColor(R.color.green))
 setActionBtnBackgroundColorResId(getResources().getColor(R.color.green))
 ```
 
+
+## Developed By: 
+#### Mohamed Gamal - mohamedgamalfci@hotmail.com
